@@ -1,0 +1,186 @@
+﻿
+Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License https://products.aspose.com/words/temporary-license
+Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License https://products.aspose.com/words/temporary-license
+
+Información del Servicio
+No. Caso Diagnóstico 	 151289 RQ
+Fecha de Solicitud
+20-06-024
+Hora de Solicitud
+16:41 pm
+Medio de Solicitud
+O Llamada
+O Correo
+Datos de Usuario
+Seccional
+Bogotá D.C. - DEAJ
+Nombre de Contacto
+Jose David Benavides Montes
+Número de Cédula
+15674363
+Ciudad
+Bogotá D.C.
+Dirección
+Cra 7 No. 27-18
+Teléfono/ Celular
+601-3127011
+Correo Electrónico
+ jobenavm@deaj.ramajudicial.gov.co
+Oficina o Juzgado
+Presupuesto
+Falla Reportada
+Solicito por favor acompañamiento para configurar el equipo
+
+Ingeniero Asignado
+Fecha de Atención
+20-06-024
+Hora de Atención
+4:50 pm
+Nombre 
+Andres Tao
+Tipo de Servicio
+Requerimiento
+Datos de Equipo
+Placa Equipo
+00-000000082178
+Serial Equipo
+MJ06FTTY
+Marca equipo
+Lenovo
+Modelo Equipo
+M715s
+Sistema Operativo
+Windows 10 Pro
+Antivirus
+ESET
+     Versión Antivirus
+  11
+Elementos de Soporte
+Si
+
+No
+
+
+No aplica
+       CPU
+  O   Monitor
+ O Teclado
+    O Mouse
+  O Servidor
+x
+       Otro Cual:
+x
+
+Marca:	                              Modelo:	                             Placa:	                                    Serial:
+S.O.:	                              Memoria:	                             Disco:	                                    Procesador:
+Tipo equipo 
+
+Nombre de Equipo
+
+Descripción del Servicio
+Información de Diagnóstico: Se valida nuevo usuario a configurar en el equipo asignado por lo cual se procede con el
+establecimiento de la configuración estándar de los programas e impresora.
+Solución Entregada: Se realiza configuración de nuevo perfil de usuario en el equipo; programas, impresora, y demás 
+configuraciones como accesos directos; se prueba y funciona correctamente.
+Observación por el Cliente
+
+Recomendaciones preventivas (Observaciones del ingeniero):
+
+
+
+
+
+
+
+
+
+
+Calificación del servicio
+
+PREGUNTAS
+1
+2
+3
+4
+5
+Disposición para atención de servicio del ingeniero
+
+
+
+
+      
+Conocimiento técnico del ingeniero
+
+
+
+
+      
+Tiempo de atención y solución
+
+
+
+
+      
+Información del avance del caso
+
+
+
+
+      
+Por favor marque con una X las siguientes preguntas considerando 1 como la mínima calificación y 5 como la máxima calificación de acuerdo con el grado de satisfacción que se encuentra con el servicio prestado.
+Nombre del Ingeniero
+Nombre del cliente
+Andres Tao
+
+
+
+
+
+
+
+________________________________ 
+
+Firma del Ingeniero
+
+Cédula: 1000862540
+
+
+
+
+
+
+_______________________
+
+Firma del Cliente
+
+Cédula:
+
+
+Hábeas Data, Ley 1581 de 2012
+
+
+Este documento contiene información de carácter confidencial exclusivamente dirigida a su destinatario o destinatarios. Si no es Ud. el destinatario indicado, queda notificado que la lectura, utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Evite imprimir este documento si no es estrictamente necesario.
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2024 Aspose Pty Ltd.
+
+
+
+
+FORMATO REPORTE DE DIAGNÓSTICO
+Código: FOR_OPR_3
+
+
+
+
+
+
+
+Versión: 1
+
+
+
+Fecha Versión: 2024-01-12
+
+
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2024 Aspose Pty Ltd.

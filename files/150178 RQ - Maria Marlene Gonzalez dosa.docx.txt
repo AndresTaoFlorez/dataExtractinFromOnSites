@@ -1,0 +1,186 @@
+﻿
+Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License https://products.aspose.com/words/temporary-license
+Created with an evaluation copy of Aspose.Words. To remove all limitations, you can use Free Temporary License https://products.aspose.com/words/temporary-license
+
+Información del Servicio
+No. Caso Diagnóstico 	 150178 RQ
+Fecha de Solicitud
+19-05-2024
+Hora de Solicitud
+9:51 am
+Medio de Solicitud
+O Llamada
+O Correo
+Datos de Usuario
+Seccional
+Bogotá D.C. - DEAJ
+Nombre de Contacto
+María Marlene Gonzalez dosa
+Número de Cédula
+52047083 
+Ciudad
+Bogotá D.C.
+Dirección
+Cra 7 No. 27-18
+Teléfono/ Celular
+601-3127011
+Correo Electrónico
+ magonzad@deaj.ramajudicial.gov.co
+Oficina o Juzgado
+Administrativa
+Falla Reportada
+Funcionaria nueva que requiere instalación de usuario en su equipo, preguntar por Marlene González, piso 22 oficina al fondo.
+
+Ingeniero Asignado
+Fecha de Atención
+19-06-2024
+Hora de Atención
+10:00 am
+Nombre 
+Andres Tao
+Tipo de Servicio
+Requerimiento
+Datos de Equipo
+Placa Equipo
+00-000000085431
+Serial Equipo
+MJ0BBWCT
+Marca equipo
+Lenovo
+Modelo Equipo
+M75q
+Sistema Operativo
+Windows 11 Pro
+Antivirus
+ESET
+     Versión Antivirus
+  11
+x
+Elementos de Soporte
+x
+
+Si
+
+No
+
+
+No aplica
+       CPU
+  O   Monitor
+ O Teclado
+    O Mouse
+  O Servidor
+       Otro Cual:
+Marca:	                              Modelo:	                             Placa:	                                    Serial:
+S.O.:	                              Memoria:	                             Disco:	                                    Procesador:
+Tipo equipo 
+
+Nombre de Equipo
+
+Descripción del Servicio
+Información de Diagnóstico: Se valida usuario nuevo para configurar en el equipo del despacho el cual requiere de
+actualización de la paquetería de Office y establecer configuración predeterminada de programas estándar.
+Solución Entregada: Se realiza configuración de perfil nuevo en equipo de escritorio, se establece configuración 
+predeterminada en programas estándar; se prueba y funciona correctamente
+Observación por el Cliente
+
+Recomendaciones preventivas (Observaciones del ingeniero):
+
+
+
+
+
+
+
+
+
+
+Calificación del servicio
+
+PREGUNTAS
+1
+2
+3
+4
+5
+Disposición para atención de servicio del ingeniero
+
+
+
+
+      
+Conocimiento técnico del ingeniero
+
+
+
+
+      
+Tiempo de atención y solución
+
+
+
+
+      
+Información del avance del caso
+
+
+
+
+      
+Por favor marque con una X las siguientes preguntas considerando 1 como la mínima calificación y 5 como la máxima calificación de acuerdo con el grado de satisfacción que se encuentra con el servicio prestado.
+Nombre del Ingeniero
+Nombre del cliente
+Andres Tao
+
+
+
+
+
+
+
+________________________________ 
+
+Firma del Ingeniero
+
+Cédula: 1000862540
+
+
+
+
+
+
+_______________________
+
+Firma del Cliente
+
+Cédula:
+
+
+Hábeas Data, Ley 1581 de 2012
+
+
+Este documento contiene información de carácter confidencial exclusivamente dirigida a su destinatario o destinatarios. Si no es Ud. el destinatario indicado, queda notificado que la lectura, utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente. Evite imprimir este documento si no es estrictamente necesario.
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2024 Aspose Pty Ltd.
+
+
+
+
+FORMATO REPORTE DE DIAGNÓSTICO
+Código: FOR_OPR_3
+
+
+
+
+
+
+
+Versión: 1
+
+
+
+Fecha Versión: 2024-01-12
+
+
+
+Evaluation Only. Created with Aspose.Words. Copyright 2003-2024 Aspose Pty Ltd.
