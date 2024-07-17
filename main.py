@@ -15,61 +15,128 @@ for index, file in enumerate(files):
    
    
    docToRead = aw.Document(f"{path}\\{str(file)}")
-   # Read all the contents from the node types paragraph
+   # Read all the contents from the node types paragraph and save in a LIST
    contentText = []
    for paragraph in docToRead.get_child_nodes(aw.NodeType.PARAGRAPH, True):
       paragraph = paragraph.as_paragraph()
-      # contentText.append((f"Paragraph {i} {paragraph.to_string(aw.SaveFormat.TEXT)}").strip())
-      contentText.append((paragraph.to_string(aw.SaveFormat.TEXT)))
+      contentText.append((paragraph.to_string(aw.SaveFormat.TEXT)).strip())
+
+   # -------------------------------------------------------------------
 
    # get and show custumerName (Nombre de Contacto)
    nombreDeContactoIndex = [i for i, s in enumerate(contentText) if "Nombre de Contacto" in s]
    custumerName = contentText[nombreDeContactoIndex[0]+1]
+   
+   # get and show mail address (Correo Electrónico)
+   correoElectronicoIndex = [i for i, s in enumerate(contentText) if "Correo Electrónico" in s]
+   cusstumerEmail = contentText[correoElectronicoIndex[0]+1]
 
    # get and show number and case type (No. Caso Diagnóstico)
    casoDiagnosticoIndex = [i for i, s in enumerate(contentText) if "No. Caso" in s]
    case = re.search(r'\d+ (RQ|INC)',contentText[casoDiagnosticoIndex[0]]).group(0)
 
+   # get and show number and case type (No. Caso Diagnóstico)
+   # get and show dateOfRequest (Fecha de Solicitud)
+   dateOfRequestIndex = [i for i, s in enumerate(contentText) if "Fecha de Solicitud" in s]
+   dateOfRequest = contentText[dateOfRequestIndex[0]+1]
+   
+   # get and show timeOfRequest (Hora de Solicitud)
+   timeOfRequestIndex = [i for i, s in enumerate(contentText) if "Hora de Solicitud" in s]
+   timeOfRequest = contentText[timeOfRequestIndex[0]+1]
 
-   # End Falla reportada
-   # startFallaReportadaIndex = contentText.index("Falla Reportada")
+   # get and show custumerIdentification (Número de Cédula)
+   custumerIdentificationIndex = [i for i, s in enumerate(contentText) if "Número de Cédula" in s]
+   custumerIdentification = contentText[custumerIdentificationIndex[0]+1]
+
+   # get and show floorName (Oficina o Juzgado)
+   floorNameIndex = [i for i, s in enumerate(contentText) if "Oficina o Juzgado" in s]
+   floorName = contentText[floorNameIndex[0]+1]
+
+   # get and show caseIssue (Falla Reportada)
+   #  start FallaReportadaIndex
    startFallaReportadaIndex = [i for i, s in enumerate(contentText) if "Falla Reportada" in s]
-   # print(startFallaReportadaIndex)
-   # print(f"{index+1}: {contentText[startFallaReportadaIndex]}")
+   #  End Falla reportada
    endFallaReportadaIndex = [i for i, s in enumerate(contentText) if "Ingeniero Asignado" in s]
-   # print(custumerName) # Custumer Name
-   # Save file content into variable contentText
-   # contentText = "\n".join(contentText)
-   contentText = "\n".join(contentText)
-   builder0 = aw.DocumentBuilder()
-   builder0.write(contentText)
+   restTemp = endFallaReportadaIndex[0] - startFallaReportadaIndex[0] - 1
+   restTemp0 = contentText[startFallaReportadaIndex[0]+1 : startFallaReportadaIndex[0]+1+restTemp]
+   caseIssue = " ".join(restTemp0)
+   
+   # get and show dateOfAttention (Fecha de Atención)
+   dateOfAttentionIndex = [i for i, s in enumerate(contentText) if "Fecha de Atención" in s]
+   dateOfAttention = contentText[dateOfAttentionIndex[0]+1]
+   
+   # get and show timeOfAttention (Hora de Atención)
+   timeOfAttentionIndex = [i for i, s in enumerate(contentText) if "Hora de Atención" in s]
+   timeOfAttention = contentText[timeOfAttentionIndex[0]+1]
+   
+   # get and show engineerName (Ingeniero Asignado - Nombre)
+   engineerNameIndex = timeOfAttentionIndex[0]+3
+   engineerName = contentText[engineerNameIndex]
+   
+   # get and show placa (Placa Equipo)
+   placaIndex = [i for i, s in enumerate(contentText) if "Placa Equipo" in s]
+   placa = contentText[placaIndex[0]+1]
+   
+   # get and show serialNumber (Serial Equipo)
+   serialNumberIndex = [i for i, s in enumerate(contentText) if "Serial Equipo" in s]
+   serialNumber = contentText[serialNumberIndex[0]+1]
 
+   # get and show manufacturer (Marca Equipo)
+   manufacturerIndex = [i for i, s in enumerate(contentText) if "Marca equipo" in s]
+   manufacturer = contentText[manufacturerIndex[0]+1]
+   
+   # get and show manufacturerModel (Modelo Equipo)
+   manufacturerModelIndex = [i for i, s in enumerate(contentText) if "Modelo Equipo" in s]
+   manufacturerModel = contentText[manufacturerModelIndex[0]+1]
 
-   builder = aw.DocumentBuilder()
-   builder.write(contentText)
-   contentTextBuild = builder.document
-   contentTextBuild.save(f".\\files\\{str(file)}.txt")
-   # print(contentText)
+   # get and show operatingSystem (Sistema Operativo)
+   operatingSystemIndex = [i for i, s in enumerate(contentText) if "Sistema Operativo" in s]
+   operatingSystem = contentText[operatingSystemIndex[0]+1]
    
-   
-   # -----------Test
-   
-   newDoc0 = builder0.document
-   # print(newDoc0.get_text())
+   # get and show diagnostic (Información de Diagnóstico)
+   #  start diagnostic
+   startDiagnostic = [i for i, s in enumerate(contentText) if "Información de Diagnóstico:" in s]
+   #  End Falla reportada
+   endDiagnostic = [i for i, s in enumerate(contentText) if "Solución Entregada:" in s]
+   restTemp = (endDiagnostic[0] - startDiagnostic[0]) - 1
+   restTemp0 = contentText[startDiagnostic[0] : startDiagnostic[0]+1+restTemp]
+   diagnostic = " ".join(restTemp0).replace('Información de Diagnóstico:', "").strip()
 
-   # -----------End Test
+   # get and show solution (Solución Entregada)
+   #  start solution
+   startSolution = [i for i, s in enumerate(contentText) if "Solución Entregada:" in s]
+   #  End Falla reportada
+   endSolution = [i for i, s in enumerate(contentText) if "Observación por el Cliente" in s]
+   restTemp = (endSolution[0] - startSolution[0]) - 1
+   restTemp0 = contentText[startSolution[0] : startSolution[0]+1+restTemp]
+   solution = " ".join(restTemp0).replace('Solución Entregada:', "").strip()
+
+   # ------------------------------------------------------------------
    
-   
-   # read element
-   with open(f".\\files\\{str(file)}.txt", encoding='utf-8') as file0:
-      contenido = file0.read()
-   # hacae la busqueda
-   case = re.search('No. Caso Diagnóstico\s*(.*?)\n', contentText).group(1).strip()
    
    dataFromDocx = {
-      "custumerName": case,
-      "case": custumerName
+      "case": case,
+      "custumerName": custumerName,
+      "custumerIdentification": custumerIdentification,
+      "custumerEmail": cusstumerEmail,
+      "dateOfRequest": dateOfRequest,
+      "timeOfRequest": timeOfRequest,
+      "floorName": floorName,
+      "caseIssue": caseIssue,
+      "dateOfAttention": dateOfAttention,
+      "timeOfAttention": timeOfAttention,
+      "engineerName": engineerName,
+      "placa": placa,
+      "serialNumber": serialNumber,
+      "manufacturer": manufacturer,
+      "manufacturerModel": manufacturerModel,
+      "operatingSystem": operatingSystem,
+      "diagnostic": diagnostic,
+      "solution": solution
    }
+   
+   with open(f".\\files\\{file.replace('.docx','')}.json", "w", encoding='utf-8') as file0:
+      json.dump(dataFromDocx, file0, ensure_ascii=False)
    print(dataFromDocx)
    
    
