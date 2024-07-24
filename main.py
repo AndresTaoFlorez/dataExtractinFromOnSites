@@ -4,7 +4,8 @@ import json
 import re
 
 # path
-path = "G:\\My Drive\\MOTHIUS\\Documents\\Thrs\\Others\\Papeles\\Papeles - ELVER ANDRES TAO FLOREZ\\CSJ\\OnsiteFormatOne"
+# path = "G:\\My Drive\\MOTHIUS\\Documents\\Thrs\\Others\\Papeles\\Papeles - ELVER ANDRES TAO FLOREZ\\CSJ\\OnsiteFormatOne"
+path = "C:\\Users\\Soporte\\Documents\\localweb\\AmyEaseKindBE\\public\\uploads"
 # get files into path
 
 files = os.listdir(path)
