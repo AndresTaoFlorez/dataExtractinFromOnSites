@@ -1,0 +1,20 @@
+{
+  "case": "161727 RQ",
+  "custumerName": "Daniel Alonso Fique Salas",
+  "custumerIdentification": "79484605",
+  "custumerEmail": "dfiques@deaj.ramajudicial.gov.co",
+  "dateOfRequest": "17-07-2024",
+  "timeOfRequest": "11:37 am",
+  "floorName": "Presupuesto",
+  "caseIssue": "El equipo presenta demasiada lentitud ",
+  "dateOfAttention": "17-07-2024",
+  "timeOfAttention": "2:00 pm",
+  "engineerName": "Andres Tao",
+  "placa": "00-0000000081526",
+  "serialNumber": "MJ07VV18",
+  "manufacturer": "Lenovo",
+  "manufacturerModel": "M715q",
+  "operatingSystem": "Windows 10 Pro",
+  "diagnostic": "Se evidencian algunos problemas de rendimiento en el equipo dado a las aplicaciones configuradas en el arranque, además se pretende actualizar Windows y reinstalar los programas para mejorar el rendimiento.",
+  "solution": "Se realiza instalación limpia del sistema operativo, programas estándar y configuración del perfil en el equipo del funcionario; se prueba y funciona correctamente."
+}
